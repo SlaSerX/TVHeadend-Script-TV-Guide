@@ -13,8 +13,6 @@
 # Feedback/comment/suggestions : https://linuxhelps.net/
 # Author Ivan Bachvarov a.k.a SlaSerX
 
-
-
 import os
 import gzip
 import requests
@@ -48,4 +46,4 @@ if options.description is False and options.capabilities is False:
 elif options.description is True:
     print "TV Grab by URL"
 elif options.capabilities is True:
-print "baseline"
+    print "baseline"
